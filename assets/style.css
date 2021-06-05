@@ -2,14 +2,14 @@
     position: relative;
 }
 
-.hero-body > p {
+.hero-body > h1 {
     position: absolute;
     top: 15%;
     right: 50%;
 }
 
 .navbar-brand {
-    padding: 5px;
+    padding: 10px;
 }
 
 .tile.is-ancestor {
@@ -25,4 +25,8 @@ div.tile {
     left: 30%;
     width: 256px !important;
     height: 256px !important;
+}
+
+.tile.is-ancestor.is-vertical > div.tile {
+    height: 10rem
 }
