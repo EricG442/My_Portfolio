@@ -30,3 +30,11 @@ div.tile {
 .tile.is-ancestor.is-vertical > div.tile {
     height: 10rem
 }
+
+.form {
+    width: 100%;
+}
+
+textarea {
+    height: 7rem !important;
+}
