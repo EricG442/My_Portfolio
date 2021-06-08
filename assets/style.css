@@ -38,3 +38,12 @@ div.tile {
 textarea {
     height: 7rem !important;
 }
+
+#project_container {
+    height: 30rem;
+}
+
+.image.is-128x128 {
+    width: 128px !important;
+    height: 128px !important;
+}
