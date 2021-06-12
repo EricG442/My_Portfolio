@@ -23,8 +23,6 @@ div.tile {
 .image {
     position: relative;
     left: 30%;
-    width: 256px !important;
-    height: 256px !important;
 }
 
 .tile.is-ancestor.is-vertical > div.tile {
@@ -44,6 +42,32 @@ textarea {
 }
 
 .image.is-128x128 {
-    width: 128px !important;
-    height: 128px !important;
+    left: 55%;
+}
+
+image.is-128x128 > img {
+    width: inherit;
+    height: inherit
+}
+
+.tile.is-vertical > .tile {
+    padding-top: 5px;
+    margin-bottom: .5rem;
+    max-height: 20.5rem;
+}
+
+#weatherAppImg {
+    height: 20rem;
+    width: 40rem;
+}
+
+#weatherAppImg > img {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-foot {
+    display: grid;
+    justify-content: center;
+    padding-top: 5rem;
 }
