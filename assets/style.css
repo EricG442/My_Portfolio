@@ -66,8 +66,18 @@ image.is-128x128 > img {
     width: 100%;
 }
 
+#expressNoteTaker {
+    height: 20rem;
+    width: 40rem;
+}
+
+#expressNoteTaker > img {
+    height: 100%;
+    width: 100%;
+}
+
 .hero-foot {
     display: grid;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
