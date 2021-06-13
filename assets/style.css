@@ -41,10 +41,6 @@ textarea {
     height: 30rem;
 }
 
-.image.is-128x128 {
-    left: 55%;
-}
-
 image.is-128x128 > img {
     width: inherit;
     height: inherit
@@ -56,9 +52,32 @@ image.is-128x128 > img {
     max-height: 20.5rem;
 }
 
+#expressNoteContainer {
+    margin-left: 1.5rem;
+}
+
+.tile.box {
+    margin-bottom: 0rem;
+}
+
+.content.portfolio {
+    position: relative;
+    right: 69%;
+}
+
+#inquirerApp > img {
+    height: 9rem;
+}
+
+#inquirerApp {
+    left: 50%;
+    top: 5%;
+}
+
 #weatherAppImg {
     height: 20rem;
     width: 40rem;
+    top: -6.5%;
 }
 
 #weatherAppImg > img {
@@ -69,6 +88,7 @@ image.is-128x128 > img {
 #expressNoteTaker {
     height: 20rem;
     width: 40rem;
+    top: -6.5%;
 }
 
 #expressNoteTaker > img {
@@ -80,4 +100,56 @@ image.is-128x128 > img {
     display: grid;
     justify-content: center;
     padding-top: 10rem;
+}
+
+#weatherAppContent {
+    max-width: 16rem;
+}
+
+#weatherAppContent > p {
+    position: relative;
+    left: -8%;
+}
+
+.content.portfolio > a:hover {
+    text-decoration: underline;
+}
+
+.content.portfolio > a:last-child {
+    margin-left: 1rem;
+}
+
+#expressNoteContainer > .content.portfolio {
+    max-width: 16rem;
+}
+
+#expressContent > p {
+    margin-bottom: 0rem;
+}
+
+#inquirerContent {
+    max-width: 30rem;
+    left: 4%;
+}
+
+#inquirerContent > a {
+    position: relative;
+    left: 40%;
+}
+
+.tile.box:last-child {
+    justify-content: center;
+}
+
+#twitterCloneContent {
+    left: 0%;
+    display: grid;
+}
+
+#twitterCloneContent > h1 {
+    text-align: center;
+}
+
+#twitterCloneContent > a {
+    justify-self: center;
 }
