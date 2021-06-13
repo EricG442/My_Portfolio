@@ -4,7 +4,7 @@
 
 .hero-body > h1 {
     position: absolute;
-    top: 15%;
+    top: 0%;
     right: 50%;
 }
 
@@ -125,6 +125,14 @@ image.is-128x128 > img {
 
 #expressContent > p {
     margin-bottom: 0rem;
+}
+
+#expressContent {
+    display: grid;
+}
+
+#expressContent > a {
+    text-align: center;
 }
 
 #inquirerContent {
