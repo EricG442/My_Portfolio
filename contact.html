@@ -51,24 +51,18 @@
             </div>
 
             <div class='hero-body'>
-                <div class='tile is-ancestor is-vertical'>
-                    <div class='tile'>
-                        <div class='form'>
-                            <label class='label'>Email</label>
-                            <div class='control'>
-                                <input class='input' type='text' placeholder='Email'>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='tile'>
-                        <div class='form'>
-                            <label class='label'>Message</label>
-                            <div class='control'>
-                                <textarea class='input' type='text'></textarea>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <form action="https://formspree.io/f/xvovaakr" method="POST">
+                    <label class='label'>
+                        Your email:
+                        <input class='input' type="email" name="_replyto">
+                    </label>
+                    <label class='label'>
+                        Your message:
+                        <textarea class='textarea' name="message"></textarea>
+                    </label>
+
+                    <button class='button' type="submit">Send</button> 
+                </form>
             </div>
 
             <div class='hero-foot'>

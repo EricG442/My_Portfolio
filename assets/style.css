@@ -1,5 +1,6 @@
 .hero-body {
     position: relative;
+    justify-content: center;
 }
 
 .hero-body > h1 {
@@ -160,4 +161,14 @@ image.is-128x128 > img {
 
 #twitterCloneContent > a {
     justify-self: center;
+}
+
+form {
+    display: block;
+    width: 100%;
+}
+
+form > button {
+    position: relative;
+    left: 50%;
 }
